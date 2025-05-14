@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Boneka - Toko Boneka Impian</title>
+    <link rel="stylesheet" href="style-boneka.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Boneka Impian</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="catalog.html">Katalog</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon">
+            <a href="#">🛒 Keranjang (0)</a>
+        </div>
+    </header>
+
+    <section class="catalog-page">
+        <h1>Katalog Boneka Kami</h1>
+        <div class="filter-sidebar">
+            <h2>Filter</h2>
+            <div class="filter-group">
+                <h3>Kategori</h3>
+                <ul>
+                    <li><input type="checkbox" id="beruang"><label for="beruang">Beruang</label></li>
+                    <li><input type="checkbox" id="kucing"><label for="kucing">Kucing</label></li>
+                    <li><input type="checkbox" id="unicorn"><label for="unicorn">Unicorn</label></li>
+                    <li><input type="checkbox" id="anjing"><label for="anjing">Anjing</label></li>
+                    </ul>
+            </div>
+            <div class="filter-group">
+                <h3>Harga</h3>
+                <ul>
+                    <li><input type="radio" name="harga" id="murah"><label for="murah">Di bawah Rp 50.000</label></li>
+                    <li><input type="radio" name="harga" id="sedang"><label for="sedang">Rp 50.000 - Rp 100.000</label></li>
+                    <li><input type="radio" name="harga" id="mahal"><label for="mahal">Di atas Rp 100.000</label></li>
+                </ul>
+            </div>
+            <button class="apply-filters">Terapkan Filter</button>
+        </div>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="beruang2.jpg" alt="Boneka Beruang Lucu">
+                <h3>Boneka Beruang Lucu</h3>
+                <p class="price">Rp 75.000</p>
+                <button class="add-to-cart">Tambah Keranjang</button>
+            </div>
+            <div class="product-card">
+                <img src="kucing2.jpg" alt="Boneka Kucing Menggemaskan">
+                <h3>Boneka Kucing Menggemaskan</h3>
+                <p class="price">Rp 60.000</p>
+                <button class="add-to-cart">Tambah Keranjang</button>
+            </div>
+            <div class="product-card">
+                <img src="unicorn2.jpg" alt="Boneka Unicorn Ajaib">
+                <h3>Boneka Unicorn Ajaib</h3>
+                <p class="price">Rp 90.000</p>
+                <button class="add-to-cart">Tambah Keranjang</button>
+            </div>
+            <div class="product-card">
+                <img src="anjing.jpg" alt="Boneka Anjing Setia">
+                <h3>Boneka Anjing Setia</h3>
+                <p class="price">Rp 80.000</p>
+                <button class="add-to-cart">Tambah Keranjang</button>
+            </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="footer-info">
+            <p>&copy; 2025 Toko Boneka Impian. Hak Cipta Dilindungi.</p>
+            <div class="social-links">
+                <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
